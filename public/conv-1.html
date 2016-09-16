@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>This is bootstrap example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+
+        </li>
+        <li><a href="calc-1.html">Calculator</a></li>
+        <li><a href="conv-1.html">Conversions</a></li>
+      </ul>
+      </div>
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <div class="jumbotron">
+     <h3>CONVERSION </h3>
+     <!--<a class="btn btn-success" href="bootstrap.html"> tap here</a>-->
+     <form method="post" action="/conv">
+     <label for="num">Coolie No.1 :</label>
+     <input type="number" required class="form-control input-lg" name="num" placeholder="Enter the Number" />
+          </p>
+     <label for="num1">Select Unit :</label>     
+      <select  required class="form-control" name="operator">
+            <option value="cm2m">Cm to M</option>
+            <option value="ft2m">Ft to M</option>
+            <option value="ft2in">Ft to Inch</option>
+            <option value="mt2in">Meter To Inch</option>
+          </select>
+
+      <BR>    
+      <input type="submit" class="btn btn-primary btn-lg"></button>
+      </BR>
+      </form>  
+  </div>
+  </div>
